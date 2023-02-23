@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    font-family: Inter, sans-serif;
+}
+
+footer {
+    height: 64px;
+    background: #161619;
+    border-radius: 0 0 10px 10px;
+}
+
+button {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px solid #1A1B21;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fc0260;
+    color: white;
+}
+
+.fa-github {
+    background: #a655bb;
+    color: white;
+}
+
+.fa-envelope {
+    color: #374151;
+    width: 30px;
+
+}
+
+.fa-linkedin {
+    color: #FFFFFF;
+    width: 30px;
+}
+
+.container {
+    background: #1A1B21;
+    width: 317px;
+    height: 480px;
+    margin: 20% auto;
+    border-radius: 10px;
+}
+
+.profile-picture {
+    width: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-section {
+    width: 317px;
+    height: 145px;
+}
+
+.info--buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials--buttons {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.socials-button {
+    background: #918E9B;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+#name {
+    color: #FFFFFF;
+    text-align: center;    
+    font-size: 25px;
+    line-height: 30px;
+    margin: 21px 0 3px 0;
+}
+
+#occupation {
+    color: #DBA521;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    margin: 3px 0 4px 0;
+}
+
+#website {
+    color: #F5F5F5;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin: 4px 0 8px 0;
+}
+
+#email-button {
+    color: #374151;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+#linkedin-button {
+    color: #FFFFFF;
+    background: #5093E2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 13px;
+}
+
+#about-title {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 36px;
+}
